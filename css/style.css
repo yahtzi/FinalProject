@@ -1,0 +1,20 @@
+nav {
+    background-color: #D1FF94;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    float: left;
+}
+
+a {
+    padding: 8px;
+    text-decoration: none;
+}
