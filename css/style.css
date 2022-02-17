@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,14 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    margin: 2px 625px;
+    font-size: 110px;
+    font-family: 'Shizuru', cursive;
+}
+
+
+h1, h2, p {
+    line-height: 2;
 }
 
 nav {
@@ -39,12 +48,13 @@ a {
 }
 
 a:hover {
-    background-color: #83D775;
-    color: black;
+    background-color: #0c6a14;
+    color: white;
 }
 
 .introContent {
-    margin: 55px 350px;
+    width: 450px;
+    margin: auto;
 }
 
 .hero img {
@@ -52,4 +62,14 @@ a:hover {
     height: 100vh;
     filter: blur(7px);
     transform: scale(1.1);
+    overflow: hidden;
+}
+
+.heroLogo {
+    background-color: none;
+    position: absolute;
+    top: 15vh;
+    left: 35vh;
+    height: 800px;
+    width: 1300px;
 }
