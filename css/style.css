@@ -80,10 +80,19 @@ a:hover {
 
 .card-img-top {
     height: 200px;
-    width: 200px;
-    
+    width: auto;
+    margin: auto;
 }
 
 .card-body {
-    background-color: #E9E9E9;
+    background-color: #EEEEEE ;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+footer {
+    font-style: italic;
+    color: #777777;
 }
