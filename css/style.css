@@ -33,7 +33,6 @@ ul {
 }
 
 li {
-    display: inline-block;
     float: left;
     font-weight: 700;
     margin-top: 15px;
@@ -48,12 +47,13 @@ a {
 }
 
 a:hover {
-    background-color: #0c6a14;
-    color: white;
+    background-color: white;
+    color: black;
+    text-decoration: none;
 }
 
 .introContent {
-    width: 450px;
+    width: 850px;
     margin: auto;
 }
 
@@ -72,4 +72,18 @@ a:hover {
     left: 35vh;
     height: 800px;
     width: 1300px;
+}
+
+.card-group {
+    margin: 55px 350px;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.card-body {
+    background-color: #E9E9E9;
 }
