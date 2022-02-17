@@ -1,8 +1,22 @@
-nav {
-    background-color: #D1FF94;
-    height: 50px;
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
 
 ul {
@@ -12,9 +26,43 @@ ul {
 li {
     display: inline-block;
     float: left;
+    font-weight: 700;
+    margin-top: 15px;
 }
 
 a {
-    padding: 8px;
+    padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+a:hover {
+    background-color: #83D775;
+    color: black;
+}
+
+.introContent {
+    margin: 55px 350px;
+}
+
+/*
+.hero {
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+
+}
+
+video {
+    filter: blur(15px);
+}
+*/
+
+.hero img {
+    width: 100vw;
+    height: 100vh;
+    filter: blur(5px);
+    transform: scale(1.1);
 }
