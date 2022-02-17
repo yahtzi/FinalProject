@@ -16,7 +16,7 @@ h1 {
 }
 
 
-h1, h2, p {
+h1, p {
     line-height: 2;
 }
 
@@ -95,4 +95,12 @@ a:hover {
 footer {
     font-style: italic;
     color: #777777;
+}
+
+.about-otter-oaks {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
